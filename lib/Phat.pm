@@ -4,7 +4,7 @@ use strict;
 use Gtk2;
 require DynaLoader;
 our @ISA = qw(DynaLoader);
-our $VERSION = 0.02;
+our $VERSION = '0.03';
 
 sub dl_load_flags { 0x01 };
 
@@ -30,7 +30,7 @@ Florian Ragwitz <rafl@debian.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2005, 2006 by Florian Ragwitz
+Copyright (C) 2005-2007 by Florian Ragwitz
 
 This library is free software; you can redistribute it and/or modify it under
 the terms of the GNU Library General Public License as published by the Free
