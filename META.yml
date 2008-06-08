@@ -12,10 +12,16 @@ name: Gtk2-Phat
 no_index:
   directory:
     - inc
+    - ext
+    - inc
     - t
     - examples
     - examples
+provides:
+  Gtk2::Phat:
+    file: lib/Gtk2/Phat.pm
+    version: 0.05
 requires:
   Gtk2: 0
   perl: 5.8.0
-version: 0.04
+version: 0.05
